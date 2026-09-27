@@ -1,0 +1,9 @@
+# Sample Test Hashes for Triage
+# EICAR Standard Anti-Virus Test File (MD5)
+44d88612fea8a8f36de82e1278abb02f
+
+# EICAR Standard Anti-Virus Test File (SHA-256)
+275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f
+
+# WannaCry Ransomware (SHA-256)
+24d004a104d4d54034dbcffc2a4b19a11f39008a575aa614ea04703480b1022c
