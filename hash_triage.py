@@ -301,4 +301,14 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n[INFO] Operation cancelled by user.")
+    finally:
+        if sys.stdin and sys.stdin.isatty():
+            try:
+                input("\nPress Enter to exit...")
+            except (EOFError, KeyboardInterrupt):
+                pass
+
